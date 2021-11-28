@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			#field {
+				transform: translate(-50%, -50%);
+				position: absolute;
+				z-index: 1;
+				left: 50%;
+				top: 50%;
+			}
+
+			#mc {
+				transform: translate(-50%, -50%);
+				background: transparent;
+				position: absolute;
+				z-index: 2;
+				left: 50%;
+				top: 50%;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="field"></canvas>
+		<canvas id="mc"></canvas>
+
+		<script type="text/javascript" src="PlayerPart.js"></script>
+		<script type="text/javascript" src="Field.js"></script>
+		<script type="text/javascript" src="Camera.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
